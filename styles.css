@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #252525;
+}
+
+h1, p, button {
+    margin: 10px;
+    
+}
+
+h1, p {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+button {
+    color: white;
+    font-size: 16px;
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+.oculto {
+    display: none;
+}
+
+#contenido {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
